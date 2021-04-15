@@ -29,10 +29,10 @@ Currently it creates a parallax effect with a background position on the center 
 The following style of utilization is recommended:
 ```html
 <div class="container">
-	<div class="parallax parallax-delay-center">
-		<img src="./background1.png">
+	<div class="parallax">
+		<img src="yourimage">
 	</div>
-	<h1>TITULO</h1>
+	<h1>Title</h1>
 	<p>Content</p>
 </div>
 ```
@@ -40,7 +40,6 @@ With you "container" class being the following:
 ```css
 .container {
 	position: relative;
-	margin-bottom: 20em;
 	height: 300px; //Here goes your wanted height.
 }
 ```
