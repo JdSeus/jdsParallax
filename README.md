@@ -57,8 +57,8 @@ By default, the parallax effect will be created with a background-position on th
 ```
 
 ### Effects
-There is only 1 effect available in the plugin for now. The delay on center effect. It makes the parallax slow down when it is on the middle of the page.
-For now, it replaces your background-position and will be equivalent to a background on the center. Better implementations will be created in the future.
+There is only 1 effect available in the plugin for now: the delay on center effect. It makes the parallax slow down when it is on the middle of the page.
+It also replaces your background-position making it dinamic with the position of your parallax. 
 
 To use it you simple add the "parallax-delay-center" class to you parallax div. Like the following:
 ```html
