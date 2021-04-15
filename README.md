@@ -11,9 +11,9 @@ To use the plugin all you need to do is import the jdsParallax.css and jdsParall
 #usage
 To create a Parallax Effect you simple need to create the next structure:
 ```html
-		<div class="parallax">
-    		<img src="yourImage">
-	  </div>
+<div class="parallax">
+	<img src="yourImage">
+</div>
 ```
 
 Currently it creates a parallax effect with a background position on the center.
@@ -22,8 +22,8 @@ Currently it creates a parallax effect with a background position on the center.
 Currently there is only 1 effect available in the plugin. The delay on center effect. It makes the parallax slow down when it is on the middle of the page.
 To use it you simple add the "parallax-delay-center" class to you parallax div. Like the following:
 ```html
-		<div class="parallax parallax-delay-center">
-    		<img src="yourImage">
-	  </div>
+<div class="parallax parallax-delay-center">
+	<img src="yourImage">
+</div>
 ```
 
