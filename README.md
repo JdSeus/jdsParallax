@@ -40,7 +40,7 @@ With you "container" class being the following:
 ```css
 .container {
 	position: relative;
-	height: 300px; //Here goes your wanted height.
+	height: 300px; /*Here goes your wanted height.*/
 }
 ```
 
@@ -52,7 +52,7 @@ By default, the parallax effect will be created with a background-position on th
 ```
 ```css
 .custom {
-	background-position: bottom; //Here goes the position you want.
+	background-position: bottom; /*Here goes the position you want.*/
 }
 ```
 
