@@ -18,7 +18,7 @@ To use the plugin all you need to do is import the jdsParallax.css on the head o
 
 
 ### Usage
-To create a Parallax Effect you simple need to create the next structure:
+To create a Parallax Effect you simply need to create the following structure:
 ```html
 <div class="parallax">
 	<img src="yourImage">
@@ -40,11 +40,11 @@ With you "container" class being the following:
 ```css
 .container {
 	position: relative;
-	height: 300px; /*Here goes your wanted height.*/
+	height: 300px; /*Your wanted height goes here.*/
 }
 ```
 
-By default, the parallax effect will be created with a background-position on the center. If you want to change that, you simple need to add a custom class after the parallax class:
+By default, the parallax effect will be created with a background-position on the center. If you want to change that, you simply need to add a custom class after the parallax class:
 ```html
 <div class="parallax custom">
 	<img src="yourImage">
@@ -52,15 +52,15 @@ By default, the parallax effect will be created with a background-position on th
 ```
 ```css
 .custom {
-	background-position: bottom; /*Here goes the position you want.*/
+	background-position: bottom; /*The position you want goes here.*/
 }
 ```
 
 ### Effects
 There is only 1 effect available in the plugin for now: the delay on center effect. It makes the parallax slow down when it is on the middle of the page.
-It also replaces your background-position making it dinamic with the position of your parallax. 
+It also replaces your background-position, making it dynamic with the position of your parallax. 
 
-To use it you simple add the "parallax-delay-center" class to you parallax div. Like the following:
+To use it you simply add the "parallax-delay-center" class to you parallax div. Like the following:
 ```html
 <div class="parallax parallax-delay-center">
 	<img src="yourImage">
