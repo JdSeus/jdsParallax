@@ -2,11 +2,20 @@
 A joyful, delightful and simple Parallax plugin using pure js and css.
 
 ### Setup
-To use the plugin all you need to do is import the jdsParallax.css and jdsParallax.js files to your html file.
+To use the plugin all you need to do is import the jdsParallax.css on the head of your html file and import the jdsParallax.js on the end of the body of your html file.
 ```html
-<link rel="stylesheet" href="/jdsParallax/jdsParallax.css">
-<script src="/jdsParallax/jdsParallax.js"></script>
+<head>
+	<!-- Your Head -->
+	<link rel="stylesheet" href="/jdsParallax/jdsParallax.css">
+</head>
 ```
+```html
+<body>
+	<!-- Your Body -->
+	<script src="/jdsParallax/jdsParallax.js"></script>
+</body>
+```
+
 
 ### Usage
 To create a Parallax Effect you simple need to create the next structure:
