@@ -3,10 +3,10 @@ A joyful, delightful and simple Parallax plugin using pure js and css.
 
 ### Setup
 To use the plugin all you need to do is import the jdsParallax.css and jdsParallax.js files to your html file.
-'''html
+```html
 <link rel="stylesheet" href="/jdsParallax/jdsParallax.css">
 <script src="/jdsParallax/jdsParallax.js"></script>
-'''
+```
 
 ### Usage
 To create a Parallax Effect you simple need to create the next structure:
