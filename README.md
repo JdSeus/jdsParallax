@@ -25,7 +25,25 @@ To create a Parallax Effect you simple need to create the next structure:
 </div>
 ```
 
-Currently it creates a parallax effect with a background position on the center.
+Currently it creates a parallax effect with a background position on the center and it will fullfil all of the first parent element with a relative position.
+The following style of utilization is recommended:
+```html
+<div class="container">
+	<div class="parallax parallax-delay-center">
+		<img src="./background1.png">
+	</div>
+	<h1>TITULO</h1>
+	<p>Content</p>
+</div>
+```
+With you "container" class being the following:
+```css
+.container {
+	position: relative;
+	margin-bottom: 20em;
+	height: 300px; //Here goes your wanted height.
+}
+```
 
 ### Effects
 There is only 1 effect available in the plugin for now. The delay on center effect. It makes the parallax slow down when it is on the middle of the page.
